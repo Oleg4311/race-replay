@@ -53,4 +53,8 @@ npm run e2e          # сценарии в браузере (Playwright, Chromiu
 
 ## Лицензия
 
-MIT
+MIT · Сделано с помощью Claude
+
+## English
+
+**Race Replay** is an interactive replay of a classic React data-fetching race: the user picks A, then B, but the slow response to A arrives after the response to B and overwrites it. The demo shows the same scenario in three modes (naive, `AbortController` cancellation, staleness guard) with a timeline of when each request started, finished and what ended up on screen. Delays are fixed and the e2e tests control the browser clock (`page.clock`), so the order of responses is deterministic. Live demo: https://oleg4311.github.io/race-replay/
