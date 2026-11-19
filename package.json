@@ -7,7 +7,7 @@
   "description": "Интерактивный разбор гонки запросов в React: исходная гонка, отмена и проверка актуальности",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/stamp.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
